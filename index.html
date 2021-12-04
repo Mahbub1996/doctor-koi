@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Doctor Portal</title>
+</head>
+<body>
+    <!-- navbar  -->
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #8e8cf0;">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-3 fw-bold" style="color: rgb(21, 20, 66);" href="#">
+                    <img src="images/logo/logo.png" alt="" width="40" height="35" class="d-inline-block  align-text-top">
+                    Doctor Koi
+                  </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav fs-5 ms-auto mb-2 mb-lg-0 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active fw-bold" aria-current="page" href="#">Doctor's</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Service's
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active fw-bold" aria-current="page" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active fw-bold" aria-current="page" href="#">About</a>
+                </li>
+               
+                </ul>
+                <button type="button" class="btn btn-dark fw-bold">Sign In</button>
+               
+            </div>
+            </div>
+        </nav>
+
+        <!-- top banner  -->
+     <section class="top-banner flexible-container">
+         <div class="banner-titel col-12">
+            <h1 class="small-title my-3"><span class="short-text">| Aetna International</span> looks at 
+                <br>
+                 international doctors. </h1>
+            <p class="title-description">Today, there is enormous disparity in the number of doctors and standard of medical facilities available across the globe. Even wealthy countries have to bring in physicians from abroad to fill gaps in the workforce.</p>
+            <button type="button" class="btn btn-dark">Appointment Here</button>
+         </div>
+     </section>
+
+
+     <!-- card section doctor  -->
+     <div class="row row-cols-1 row-cols-md-3 mx-5">
+        <div class="col">
+          <div class="card h-100" style="width: 300px;">
+            <img src="images/doctors/dr1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jonson Cleive</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Details Here
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">My Description</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Bachelor of Medicine, Bachelor of Surgery (Latin: Medicinae Baccalaureus, Baccalaureus Chirurgiae; abbreviated in many ways, most commonly MBBS
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-dark">Appointment Here</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+              </button>
+            </div>
+            
+            <div class="card-footer">
+              <small class="text-muted">Last updated 27 mins ago</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100" style="width: 300px;">
+            <img src="images/doctors/dr2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Marchilo Mandio</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content. This card has supporting text below as a natural to additional.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Details Here
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">My Description</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            he prominence of heart disease in America makes a cardiologist a very important health profession. Cardiologists are doctors who specialize 
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-dark">Appointment Here</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+              </button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 11 mins ago</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100" style="width: 300px;">
+            <img src="images/doctors/dr3.jpg"  class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cheracik Loriom</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content the first to show.</p>
+              
+                  <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Details Here
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">My Description</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            A pediatrician is a medical doctor who manages the physical, behavioral, and mental care for children from birth until age 18. A pediatrician is trained to diagnose and treat a broad range of childhood illnesses, from minor health problems to serious diseases.
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-dark">Appointment Here</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+              </button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+
+
+
+    <!-- bootstrap js link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

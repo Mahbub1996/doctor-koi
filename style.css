@@ -1,0 +1,33 @@
+.top-banner{
+    background-image: url(images/backgroungImg/bg_home-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.flexible-container{
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.banner-titel{
+    width: 500px;
+    margin-left: 80px;
+    margin-top: 80px;
+    display: block;
+}
+.short-text{
+    color: rgb(255, 46, 98);
+    text-shadow: 1px 2px 3px black;
+    font-size: 55px;
+}
+.small-title{
+    color: rgba(0, 0, 0, 0.87);
+    text-shadow: 1px 2px 3px rgb(216, 213, 213);
+    font-size: 35px;
+}
+.title-description{
+    color: cornsilk;
+    width: 500px;
+}
